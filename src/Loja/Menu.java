@@ -1,10 +1,7 @@
 package Loja;
 
 import java.util.Scanner;
-
 import Cores.util.Cores;
-
-
 
 public class Menu {
 
@@ -15,7 +12,8 @@ public class Menu {
 		int opcao;
 
 		do {
-			System.out.println(Cores.TEXT_WHITE_BOLD +  Cores.ANSI_BLACK_BACKGROUND +"*****************************************************");
+			System.out.println(Cores.TEXT_WHITE_BOLD + Cores.ANSI_BLACK_BACKGROUND
+					+ "*****************************************************");
 			System.out.println("                                                     ");
 			System.out.println("                LOJA DE ROUPAS ROSE PRIVÉE            ");
 			System.out.println("                                                     ");
@@ -47,7 +45,7 @@ public class Menu {
 
 				break;
 			case 4:
-				System.out.println(Cores.TEXT_PURPLE_BOLD +"\nAtualizar Produto\n");
+				System.out.println(Cores.TEXT_PURPLE_BOLD + "\nAtualizar Produto\n");
 
 				break;
 			case 5:
@@ -55,7 +53,7 @@ public class Menu {
 
 				break;
 			case 6:
-				System.out.println(Cores.TEXT_RED_BOLD +"\nLoja de Roupas Fashion - A moda ao seu alcance!");
+				System.out.println(Cores.TEXT_RED_BOLD + "\nLoja de Roupas Fashion - A moda ao seu alcance!");
 				sobre();
 				leia.close();
 				System.exit(0);
