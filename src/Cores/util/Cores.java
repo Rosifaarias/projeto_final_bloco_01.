@@ -1,4 +1,4 @@
-package loja.util;
+package Cores.util;
 
 public class Cores {
 	

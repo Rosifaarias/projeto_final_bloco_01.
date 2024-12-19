@@ -1,8 +1,8 @@
-package LojaDeRoupas;
+package Loja;
 
 import java.util.Scanner;
 
-import loja.util.Cores;
+import Cores.util.Cores;
 
 
 
